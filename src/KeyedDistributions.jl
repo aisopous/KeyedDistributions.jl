@@ -5,7 +5,6 @@ using AxisKeys
 using Distributions
 using Distributions: GenericMvTDist
 using LinearAlgebra: Symmetric
-using PDMats
 using PDMatsExtras: submat
 using Random: AbstractRNG
 
