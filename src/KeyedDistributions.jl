@@ -280,6 +280,7 @@ function KeyedDistribution(
     return KeyedDistribution(kd.d, keys)
 end
 
+Distributions.scale(kd::KeyedMixtureModel) = Distributions.scale(kd.d)
 Distributions.probs(kd::KeyedMixtureModel) = Distributions.probs(kd.d)
 Distributions.components(kd::KeyedMixtureModel) = Distributions.components(kd.d)
 
